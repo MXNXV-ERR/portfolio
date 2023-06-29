@@ -1,5 +1,5 @@
 import PortfolioPage from './PortfolioPage';
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 function App() {
   useEffect(() => {
