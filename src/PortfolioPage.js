@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-
+import logo from './assets/logo.svg';
 const PortfolioPage = () => {
   return (
     <div>
       <header>
-        <h1>MXNXV-ERR</h1>
+        <img src={logo} alt="Logo" className="App-logo"/>
       </header>
       <nav>
       
