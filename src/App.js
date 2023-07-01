@@ -1,4 +1,4 @@
-import PortfolioPage from './PortfolioPage';
+import LandingPage from './pages/LandingPage';
 import { useEffect } from 'react';
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
     document.title = "Manav`s portfolio"; // Change this to your desired title
   }, []);
   return (
-   PortfolioPage()
+   LandingPage()
   );
 }
 
